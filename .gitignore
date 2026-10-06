@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# VS Code local settings
+.vscode/
+
+# Environment variables / API keys
+.env
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# R package cache
+renv/library/
+renv/staging/
+
+
+# Generated outputs
+output/model_results/
