@@ -1,0 +1,20 @@
+
+Call:
+lm(formula = Peak_Demand_MW ~ Avg_Temp_C + I(Avg_Temp_C^2), data = temperature_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6011.0  -991.9    89.4  1025.5  3914.2 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     16946.6912    38.9655  434.92   <2e-16 ***
+Avg_Temp_C       -169.3062     4.0115  -42.20   <2e-16 ***
+I(Avg_Temp_C^2)    13.4073     0.2468   54.33   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1400 on 2551 degrees of freedom
+Multiple R-squared:  0.5364,	Adjusted R-squared:  0.5361 
+F-statistic:  1476 on 2 and 2551 DF,  p-value: < 2.2e-16
+
