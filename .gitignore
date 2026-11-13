@@ -27,3 +27,6 @@ renv/staging/
 
 # Generated outputs
 output/model_results/
+
+#R scripts
+03_data_integration_v1.R
